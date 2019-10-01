@@ -7,6 +7,10 @@
 
 ## Example
 
+[![img](https://raw.githubusercontent.com/sergemoskalenko/MSVTextField/master/Example/MSVTextField.gif)](https://github.com/sergemoskalenko/MSVTextField)
+
+
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 There is simple task:
