@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSVTextFieldPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MSVTextField is simple closure delegated replacement for UITextField.'
 
 # This description is used to generate tags and improve search results.
