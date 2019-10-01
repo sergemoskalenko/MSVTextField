@@ -1,6 +1,6 @@
 # MSVTextFieldPod
 
-[![CI Status](https://img.shields.io/travis/Serge Moskalenko/MSVTextFieldPod.svg?style=flat)](https://travis-ci.org/Serge Moskalenko/MSVTextFieldPod)
+[![CI Status](https://img.shields.io/travis/sergemoskalenko/MSVTextFieldPod.svg?style=flat)](https://travis-ci.org/sergemoskalenko/MSVTextFieldPod)
 [![Version](https://img.shields.io/cocoapods/v/MSVTextFieldPod.svg?style=flat)](https://cocoapods.org/pods/MSVTextFieldPod)
 [![License](https://img.shields.io/cocoapods/l/MSVTextFieldPod.svg?style=flat)](https://cocoapods.org/pods/MSVTextFieldPod)
 [![Platform](https://img.shields.io/cocoapods/p/MSVTextFieldPod.svg?style=flat)](https://cocoapods.org/pods/MSVTextFieldPod)
