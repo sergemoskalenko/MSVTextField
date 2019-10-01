@@ -9,6 +9,26 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+There is simple task:
+How to make UITextfield highlight when tapped? (On focus)
+
+```swift
+simpleTextField.onFocus { textField, isBegin in
+   textField.backgroundColor = isBegin ? UIColor.yellow : UIColor.lightGray
+}
+```
+
+How to check input and highlight?
+
+```swift
+simpleTextField.onFocus { textField, isBegin in
+   textField.backgroundColor = isBegin ? UIColor.yellow : UIColor.lightGray
+}.onChange { _, string in
+   return string.count < 10 // check for 10 symbols max
+}
+```
+
+
 ## Requirements
 
 ## Installation
