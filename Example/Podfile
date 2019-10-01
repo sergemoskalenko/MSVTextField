@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSVTextFieldPod_Example' do
+  pod 'MSVTextFieldPod', :path => '../'
+
+  target 'MSVTextFieldPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

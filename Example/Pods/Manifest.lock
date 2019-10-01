@@ -1,0 +1,16 @@
+PODS:
+  - MSVTextFieldPod (0.1.0)
+
+DEPENDENCIES:
+  - MSVTextFieldPod (from `../`)
+
+EXTERNAL SOURCES:
+  MSVTextFieldPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSVTextFieldPod: c99d11d4441ba8bd3f3b47e1a37e3dfc1c837961
+
+PODFILE CHECKSUM: 45701cdd19c6427884f23f64caf91984c8b31c49
+
+COCOAPODS: 1.7.5

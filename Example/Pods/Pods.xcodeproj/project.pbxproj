@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27296528FB9BF5CD0E8E64FAAF1EF77E /* MSVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACCE2EA678B73E00B020C40A251A95 /* MSVTextField.swift */; };
+		31ECA8AB31BF696DED0C788C8E83DA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		99E6415E13CE6F457A115C0D3A3B7370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9F5C2C53CA124A0FFAE6B287177F0F1F /* Pods-MSVTextFieldPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E2D037B37255EE2EF89633E326F38C /* Pods-MSVTextFieldPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79AE81DA6C51336F40FB5359D886DE8 /* Pods-MSVTextFieldPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B832CFC4E3396B13DFDBAB982D85A5CB /* Pods-MSVTextFieldPod_Example-dummy.m */; };
+		A95D43452ED6C8791039AF488918E070 /* Pods-MSVTextFieldPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC787A30A421336A70739030B300C7B4 /* Pods-MSVTextFieldPod_Tests-dummy.m */; };
+		CCCBF8D38AAD87BE609430850D49C6A6 /* MSVTextFieldPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E551E67D7FE91FBCAF4CE4768C78DB6E /* MSVTextFieldPod-dummy.m */; };
+		D5D7CF7FE086559945BB0F2A4E1BC11D /* MSVTextFieldPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7020660550B096B347A1CE7BCF1989AE /* MSVTextFieldPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AC5FE974DAE153E49FC032ACA63C88 /* Pods-MSVTextFieldPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1421FE975FA400BE4DCD2BA90D70445 /* Pods-MSVTextFieldPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCD7800A87F4D0232B5FBF591AD150AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD00803D2342B9CD00CE505F /* MSVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACCE2EA678B73E00B020C40A251A95 /* MSVTextField.swift */; };
+		FD00803E2342B9CE00CE505F /* MSVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACCE2EA678B73E00B020C40A251A95 /* MSVTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21AB6E64DA128135D354E56F8B54CADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9457D2A40EE25E6FF7C701576D3C8E4;
+			remoteInfo = "Pods-MSVTextFieldPod_Example";
+		};
+		6674514ACFB2012373ABAD9F160EC84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C257526CF4888B0BBF8C9F1A1DB0D0;
+			remoteInfo = MSVTextFieldPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00095E0F621AC5831ACCBACC086FBD10 /* MSVTextFieldPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSVTextFieldPod-prefix.pch"; sourceTree = "<group>"; };
+		070048CFEB9D9315A13F590C2513EA05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2E54AE954C8D460BB9617E3CD3B057EA /* Pods-MSVTextFieldPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSVTextFieldPod_Tests.modulemap"; sourceTree = "<group>"; };
+		3196B8D54DA7BF371E409BFE6120CCA3 /* MSVTextFieldPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSVTextFieldPod-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41BC2708B7C6C7CF88078C0112DBD1A9 /* Pods-MSVTextFieldPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSVTextFieldPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		42AACF58195D022C10C0627BB6776F62 /* MSVTextFieldPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSVTextFieldPod.modulemap; sourceTree = "<group>"; };
+		4EA1315FB0F9DA9B9711E0964224DAC9 /* Pods-MSVTextFieldPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSVTextFieldPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C2DF7E3843691964A9A08C06F33610D /* Pods_MSVTextFieldPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSVTextFieldPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7020660550B096B347A1CE7BCF1989AE /* MSVTextFieldPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSVTextFieldPod-umbrella.h"; sourceTree = "<group>"; };
+		70ACCE2EA678B73E00B020C40A251A95 /* MSVTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSVTextField.swift; path = MSVTextFieldPod/Classes/MSVTextField.swift; sourceTree = "<group>"; };
+		72430357B8F5AF22E4EBBAA091E5CB4D /* Pods-MSVTextFieldPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSVTextFieldPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		7EB471B570EB4E4D9637AA1A4B30324A /* Pods-MSVTextFieldPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSVTextFieldPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7F1C1B422F221C0F9D5563331C2FBD51 /* Pods-MSVTextFieldPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSVTextFieldPod_Example-Info.plist"; sourceTree = "<group>"; };
+		88D1182107F5C9B5A80CE1B36DCA3DE4 /* Pods_MSVTextFieldPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSVTextFieldPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D2F6C665B2AAC61D32AE8DB6B49322 /* Pods-MSVTextFieldPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSVTextFieldPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9154F12F61024141BC6CAC9FBD604920 /* Pods-MSVTextFieldPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSVTextFieldPod_Example.modulemap"; sourceTree = "<group>"; };
+		95AFAE9A08A49761E52710FD0D89FA06 /* Pods-MSVTextFieldPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSVTextFieldPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96ABADB4B620429F76A057192B4ECD01 /* Pods-MSVTextFieldPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSVTextFieldPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		997F27BA1C719EA11470A40E52FD2CBF /* Pods-MSVTextFieldPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSVTextFieldPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C143D01D837C53212224402FFE19C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B1F911BC4E9639D87F61DD9BA92113F7 /* MSVTextFieldPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSVTextFieldPod.xcconfig; sourceTree = "<group>"; };
+		B4BE43CC3C05F0A9C855B35FEBC91C21 /* MSVTextFieldPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSVTextFieldPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B51AFEB2C93F394F17E9B96F29502D4C /* Pods-MSVTextFieldPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSVTextFieldPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B832CFC4E3396B13DFDBAB982D85A5CB /* Pods-MSVTextFieldPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSVTextFieldPod_Example-dummy.m"; sourceTree = "<group>"; };
+		BC787A30A421336A70739030B300C7B4 /* Pods-MSVTextFieldPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSVTextFieldPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1421FE975FA400BE4DCD2BA90D70445 /* Pods-MSVTextFieldPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSVTextFieldPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		C5C34033390A977D20718E1BCFAB330A /* Pods-MSVTextFieldPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSVTextFieldPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E2D037B37255EE2EF89633E326F38C /* Pods-MSVTextFieldPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSVTextFieldPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E551E67D7FE91FBCAF4CE4768C78DB6E /* MSVTextFieldPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSVTextFieldPod-dummy.m"; sourceTree = "<group>"; };
+		EE80C7F23AA1EB9E8B5D14A1BFAD4D13 /* MSVTextFieldPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSVTextFieldPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D1BBA87B7F35C50938DA3737515F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD7800A87F4D0232B5FBF591AD150AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7B78FD380C9F75D300CCACBB1662AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E6415E13CE6F457A115C0D3A3B7370 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6663738E159C10898A8B0167C304A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31ECA8AB31BF696DED0C788C8E83DA23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05354611AF5CBE3F799CE166C9946D48 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A7C143D01D837C53212224402FFE19C3 /* LICENSE */,
+				B4BE43CC3C05F0A9C855B35FEBC91C21 /* MSVTextFieldPod.podspec */,
+				070048CFEB9D9315A13F590C2513EA05 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		305FFADF9A41334F9F91C735B7354118 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AACF58195D022C10C0627BB6776F62 /* MSVTextFieldPod.modulemap */,
+				B1F911BC4E9639D87F61DD9BA92113F7 /* MSVTextFieldPod.xcconfig */,
+				E551E67D7FE91FBCAF4CE4768C78DB6E /* MSVTextFieldPod-dummy.m */,
+				3196B8D54DA7BF371E409BFE6120CCA3 /* MSVTextFieldPod-Info.plist */,
+				00095E0F621AC5831ACCBACC086FBD10 /* MSVTextFieldPod-prefix.pch */,
+				7020660550B096B347A1CE7BCF1989AE /* MSVTextFieldPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSVTextFieldPod";
+			sourceTree = "<group>";
+		};
+		36C76A4668C6BDF722E9222CF3F3D81E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				469166D3097C245A6AA21F38511CC858 /* MSVTextFieldPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		469166D3097C245A6AA21F38511CC858 /* MSVTextFieldPod */ = {
+			isa = PBXGroup;
+			children = (
+				70ACCE2EA678B73E00B020C40A251A95 /* MSVTextField.swift */,
+				05354611AF5CBE3F799CE166C9946D48 /* Pod */,
+				305FFADF9A41334F9F91C735B7354118 /* Support Files */,
+			);
+			name = MSVTextFieldPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7043D094833FB2C7FC9D2DD71F5E2C1A /* Pods-MSVTextFieldPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E54AE954C8D460BB9617E3CD3B057EA /* Pods-MSVTextFieldPod_Tests.modulemap */,
+				B51AFEB2C93F394F17E9B96F29502D4C /* Pods-MSVTextFieldPod_Tests-acknowledgements.markdown */,
+				95AFAE9A08A49761E52710FD0D89FA06 /* Pods-MSVTextFieldPod_Tests-acknowledgements.plist */,
+				BC787A30A421336A70739030B300C7B4 /* Pods-MSVTextFieldPod_Tests-dummy.m */,
+				72430357B8F5AF22E4EBBAA091E5CB4D /* Pods-MSVTextFieldPod_Tests-Info.plist */,
+				D6E2D037B37255EE2EF89633E326F38C /* Pods-MSVTextFieldPod_Tests-umbrella.h */,
+				C5C34033390A977D20718E1BCFAB330A /* Pods-MSVTextFieldPod_Tests.debug.xcconfig */,
+				997F27BA1C719EA11470A40E52FD2CBF /* Pods-MSVTextFieldPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-MSVTextFieldPod_Tests";
+			path = "Target Support Files/Pods-MSVTextFieldPod_Tests";
+			sourceTree = "<group>";
+		};
+		A2AA9178EDA81EED7F7E531A6131822B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44CC274A090737CD52A3BB14721E4F3 /* Pods-MSVTextFieldPod_Example */,
+				7043D094833FB2C7FC9D2DD71F5E2C1A /* Pods-MSVTextFieldPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B5428D6B5FCFDEECB5BD1CD203DFDAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE80C7F23AA1EB9E8B5D14A1BFAD4D13 /* MSVTextFieldPod.framework */,
+				88D1182107F5C9B5A80CE1B36DCA3DE4 /* Pods_MSVTextFieldPod_Example.framework */,
+				6C2DF7E3843691964A9A08C06F33610D /* Pods_MSVTextFieldPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C44CC274A090737CD52A3BB14721E4F3 /* Pods-MSVTextFieldPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9154F12F61024141BC6CAC9FBD604920 /* Pods-MSVTextFieldPod_Example.modulemap */,
+				4EA1315FB0F9DA9B9711E0964224DAC9 /* Pods-MSVTextFieldPod_Example-acknowledgements.markdown */,
+				90D2F6C665B2AAC61D32AE8DB6B49322 /* Pods-MSVTextFieldPod_Example-acknowledgements.plist */,
+				B832CFC4E3396B13DFDBAB982D85A5CB /* Pods-MSVTextFieldPod_Example-dummy.m */,
+				41BC2708B7C6C7CF88078C0112DBD1A9 /* Pods-MSVTextFieldPod_Example-frameworks.sh */,
+				7F1C1B422F221C0F9D5563331C2FBD51 /* Pods-MSVTextFieldPod_Example-Info.plist */,
+				C1421FE975FA400BE4DCD2BA90D70445 /* Pods-MSVTextFieldPod_Example-umbrella.h */,
+				7EB471B570EB4E4D9637AA1A4B30324A /* Pods-MSVTextFieldPod_Example.debug.xcconfig */,
+				96ABADB4B620429F76A057192B4ECD01 /* Pods-MSVTextFieldPod_Example.release.xcconfig */,
+			);
+			name = "Pods-MSVTextFieldPod_Example";
+			path = "Target Support Files/Pods-MSVTextFieldPod_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36C76A4668C6BDF722E9222CF3F3D81E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B5428D6B5FCFDEECB5BD1CD203DFDAC0 /* Products */,
+				A2AA9178EDA81EED7F7E531A6131822B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F6A84C4B29878D09F74395FC45444AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AC5FE974DAE153E49FC032ACA63C88 /* Pods-MSVTextFieldPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25970E32019A98306F966C2171569B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5C2C53CA124A0FFAE6B287177F0F1F /* Pods-MSVTextFieldPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B755E1B31DB3C3930BCC72F588455E53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D7CF7FE086559945BB0F2A4E1BC11D /* MSVTextFieldPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41C257526CF4888B0BBF8C9F1A1DB0D0 /* MSVTextFieldPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403E82713C46206A9092FAC32D23879F /* Build configuration list for PBXNativeTarget "MSVTextFieldPod" */;
+			buildPhases = (
+				B755E1B31DB3C3930BCC72F588455E53 /* Headers */,
+				E9F8F2AEA7BB3E5BAAB4FD47D1E0F3F0 /* Sources */,
+				CB7B78FD380C9F75D300CCACBB1662AF /* Frameworks */,
+				DC02667D13DA5EF1DAC045699E3EBB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSVTextFieldPod;
+			productName = MSVTextFieldPod;
+			productReference = EE80C7F23AA1EB9E8B5D14A1BFAD4D13 /* MSVTextFieldPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49D569E6B2B69844B81F8C24073CFE70 /* Pods-MSVTextFieldPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C7DA12E0CBCA5C9FEE0DFF0D72F7BB /* Build configuration list for PBXNativeTarget "Pods-MSVTextFieldPod_Tests" */;
+			buildPhases = (
+				B25970E32019A98306F966C2171569B2 /* Headers */,
+				7E76843641F416FFD69A6421BDBAD9BF /* Sources */,
+				D6663738E159C10898A8B0167C304A0D /* Frameworks */,
+				C66E7C61F8C00316DCD55FEA01674CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1205C8D192E5D3A7D0DFDE19C9993E36 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSVTextFieldPod_Tests";
+			productName = "Pods-MSVTextFieldPod_Tests";
+			productReference = 6C2DF7E3843691964A9A08C06F33610D /* Pods_MSVTextFieldPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9457D2A40EE25E6FF7C701576D3C8E4 /* Pods-MSVTextFieldPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803035EFB120BA98F45F81D6BB273F0 /* Build configuration list for PBXNativeTarget "Pods-MSVTextFieldPod_Example" */;
+			buildPhases = (
+				9F6A84C4B29878D09F74395FC45444AA /* Headers */,
+				1E7F09842080AC753C922E6236ADA926 /* Sources */,
+				04D1BBA87B7F35C50938DA3737515F85 /* Frameworks */,
+				3C676087446B629025FED009E05DB942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93AABAC7FCABAB0659B43BE46E313BFF /* PBXTargetDependency */,
+			);
+			name = "Pods-MSVTextFieldPod_Example";
+			productName = "Pods-MSVTextFieldPod_Example";
+			productReference = 88D1182107F5C9B5A80CE1B36DCA3DE4 /* Pods_MSVTextFieldPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B5428D6B5FCFDEECB5BD1CD203DFDAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C257526CF4888B0BBF8C9F1A1DB0D0 /* MSVTextFieldPod */,
+				B9457D2A40EE25E6FF7C701576D3C8E4 /* Pods-MSVTextFieldPod_Example */,
+				49D569E6B2B69844B81F8C24073CFE70 /* Pods-MSVTextFieldPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C676087446B629025FED009E05DB942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66E7C61F8C00316DCD55FEA01674CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC02667D13DA5EF1DAC045699E3EBB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7F09842080AC753C922E6236ADA926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD00803D2342B9CD00CE505F /* MSVTextField.swift in Sources */,
+				A79AE81DA6C51336F40FB5359D886DE8 /* Pods-MSVTextFieldPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E76843641F416FFD69A6421BDBAD9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD00803E2342B9CE00CE505F /* MSVTextField.swift in Sources */,
+				A95D43452ED6C8791039AF488918E070 /* Pods-MSVTextFieldPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F8F2AEA7BB3E5BAAB4FD47D1E0F3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27296528FB9BF5CD0E8E64FAAF1EF77E /* MSVTextField.swift in Sources */,
+				CCCBF8D38AAD87BE609430850D49C6A6 /* MSVTextFieldPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1205C8D192E5D3A7D0DFDE19C9993E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSVTextFieldPod_Example";
+			target = B9457D2A40EE25E6FF7C701576D3C8E4 /* Pods-MSVTextFieldPod_Example */;
+			targetProxy = 21AB6E64DA128135D354E56F8B54CADF /* PBXContainerItemProxy */;
+		};
+		93AABAC7FCABAB0659B43BE46E313BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSVTextFieldPod;
+			target = 41C257526CF4888B0BBF8C9F1A1DB0D0 /* MSVTextFieldPod */;
+			targetProxy = 6674514ACFB2012373ABAD9F160EC84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EF1CB641878C41A8E858110268A6AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB471B570EB4E4D9637AA1A4B30324A /* Pods-MSVTextFieldPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSVTextFieldPod_Example/Pods-MSVTextFieldPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSVTextFieldPod_Example/Pods-MSVTextFieldPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		205B48FEEE3AC7968674ED4076C73371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F911BC4E9639D87F61DD9BA92113F7 /* MSVTextFieldPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSVTextFieldPod/MSVTextFieldPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSVTextFieldPod/MSVTextFieldPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSVTextFieldPod/MSVTextFieldPod.modulemap";
+				PRODUCT_MODULE_NAME = MSVTextFieldPod;
+				PRODUCT_NAME = MSVTextFieldPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C51CD17A67CEFBC553667E01A0F3C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997F27BA1C719EA11470A40E52FD2CBF /* Pods-MSVTextFieldPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSVTextFieldPod_Tests/Pods-MSVTextFieldPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSVTextFieldPod_Tests/Pods-MSVTextFieldPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70FDEAFF4EFBC94EC55314FB9BCCD7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F911BC4E9639D87F61DD9BA92113F7 /* MSVTextFieldPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSVTextFieldPod/MSVTextFieldPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSVTextFieldPod/MSVTextFieldPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSVTextFieldPod/MSVTextFieldPod.modulemap";
+				PRODUCT_MODULE_NAME = MSVTextFieldPod;
+				PRODUCT_NAME = MSVTextFieldPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BE40B32E9C9973AFE27C79304A374E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C34033390A977D20718E1BCFAB330A /* Pods-MSVTextFieldPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSVTextFieldPod_Tests/Pods-MSVTextFieldPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSVTextFieldPod_Tests/Pods-MSVTextFieldPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E135BC2AF7775D5C16B8EB02C09FC167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96ABADB4B620429F76A057192B4ECD01 /* Pods-MSVTextFieldPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSVTextFieldPod_Example/Pods-MSVTextFieldPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSVTextFieldPod_Example/Pods-MSVTextFieldPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C7DA12E0CBCA5C9FEE0DFF0D72F7BB /* Build configuration list for PBXNativeTarget "Pods-MSVTextFieldPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE40B32E9C9973AFE27C79304A374E1 /* Debug */,
+				2C51CD17A67CEFBC553667E01A0F3C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1803035EFB120BA98F45F81D6BB273F0 /* Build configuration list for PBXNativeTarget "Pods-MSVTextFieldPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF1CB641878C41A8E858110268A6AAA /* Debug */,
+				E135BC2AF7775D5C16B8EB02C09FC167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403E82713C46206A9092FAC32D23879F /* Build configuration list for PBXNativeTarget "MSVTextFieldPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205B48FEEE3AC7968674ED4076C73371 /* Debug */,
+				70FDEAFF4EFBC94EC55314FB9BCCD7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

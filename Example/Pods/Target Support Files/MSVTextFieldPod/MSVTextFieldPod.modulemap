@@ -1,0 +1,6 @@
+framework module MSVTextFieldPod {
+  umbrella header "MSVTextFieldPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
