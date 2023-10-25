@@ -5,12 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/MSVTextFieldPod.svg?style=flat)](https://cocoapods.org/pods/MSVTextFieldPod)
 [![Platform](https://img.shields.io/cocoapods/p/MSVTextFieldPod.svg?style=flat)](https://cocoapods.org/pods/MSVTextFieldPod)
 
+## Demo online:
+https://is.gd/5MNxmf
+
 ## Example
 
 [![img](https://raw.githubusercontent.com/sergemoskalenko/MSVTextField/master/Example/MSVTextField.gif)](https://github.com/sergemoskalenko/MSVTextField)
 
-Demo online:
-https://is.gd/5MNxmf
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
