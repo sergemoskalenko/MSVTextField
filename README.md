@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/MSVTextFieldPod.svg?style=flat)](https://cocoapods.org/pods/MSVTextFieldPod)
 
 ## Demo online:
-<a href="https://is.gd/5MNxmf" taget=_blank>https://is.gd/5MNxmf</a>
+<a href="https://is.gd/5MNxmf" taget="_blank">https://is.gd/5MNxmf</a>
 
 ## Example
 
