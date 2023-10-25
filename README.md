@@ -13,7 +13,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-There is simple task:
+It's a simple task:
 How to make UITextfield highlight when tapped? (On focus)
 
 ```swift
